@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/satellites7/Responsive-Web-Developer/tree/main/interior-consultant-master">
       Solution
     </a>
     <span> | </span>
