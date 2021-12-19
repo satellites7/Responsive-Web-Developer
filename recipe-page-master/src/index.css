@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header p {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3.25rem auto 0;
+    width: 60.5625rem;
+    height: 37.5rem;
+}
+
+header img {
+    margin-top: .1875rem;
+    float: left;
+}
+
+.description {
+    margin-left: 1.25rem;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.0625rem;
+    width: 36rem;
+    color: #4F4F4F
+}
+
+.cheese {
+    height: 27.75rem;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #333333;
+}
+
+main {
+    /* height: 2060px; */
+    width: 60.5625rem;
+    margin: 3rem auto 0;
+}
+
+.ingredients {
+    width: 39.8125rem;
+}
+
+.part {
+    padding: 2rem 0 1.875rem 0;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #333333;
+}
+
+ul {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 36.875rem;
+}
+
+ul li {
+    display: flex;
+    width: 33.75rem;
+    font-family: Lora;
+    color: #333333;
+
+}
+
+ul li span {
+    margin-left: 14px ;
+}
+
+.kuang {
+    width: 25px;
+    height: 25px;
+
+}
+
+.card {
+    gap: 43px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: right;
+    width: 216px;
+    height: 367px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+
+.card section {
+    display: flex;
+    justify-content: space-between;
+    width: 7.625rem;
+    height: 2.125rem;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 27px;
+    height: 25px;
+}
+
+.card p,.box p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+ 
+
+.number {
+    margin-top: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+
+
+
+.instructions  {
+    margin-top: 26px;
+    height: 1000px;
+}
+.instructions li{
+    font-family: Montserrat;
+}
+.sign {
+    height: 36px;
+    width: 36px;
+}
+.box {
+    display: none;
+}
+
+footer {
+    margin: 70px auto 0;
+
+    width: 400px;
+    height: 17px;
+
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;
+
+}
+
+@media screen and (max-width: 620px) {
+    html {
+        overflow-x: hidden;
+        font-size: 14px;
+    }
+    header {
+        height: 300px;
+    }
+
+    .cheese {
+        height: auto;
+        margin-left: 10px;
+        width: 94.5vw;
+    }
+
+    header p {
+        font-size: 24px;
+    }
+
+    li {
+        width: 100vw;
+    }
+    ul {
+        width: 100vw;
+    }
+    ul li span {
+        margin-left: 3px ;
+        width: 70%;
+    }
+
+    .instructions  {
+        height: 1200px;
+    }
+    main {
+        margin-left: 5px;
+    }
+    .description {
+        width: 320px
+    }
+    .media {
+        padding-left: 10px;
+    }
+    header p {
+        padding-left: 10px;
+        margin-top: -20px;
+    }
+    .card {
+        display: none;
+    }
+
+    .box {
+        width: 90vw;
+        height: 120px;
+        margin-left: 10px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .box section {
+        width: 357px;
+        /* justify-content: space-between */
+        display: flex;
+    }
+    .box img {
+        padding-right: 5px ;
+        margin: auto 0;
+        width: 21px;
+        height: 21px;
+    }
+
+    .box p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box {
+        margin-top: -20px;
+    }
+}
