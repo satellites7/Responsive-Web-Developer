@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">recipe-page-master</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://recipe-page-mfzw.onrender.com">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/satellites7/Responsive-Web-Developer/edit/main/recipe-page-master">
       Solution
     </a>
     <span> | </span>
@@ -38,7 +38,9 @@
 ## Overview
 
 ![screenshot](./img/pc.png)
-![screenshot](./img/phone.png)
+![screenshot](./img/phone1.png)
+![screenshot](./img/phone2.png)
+
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
