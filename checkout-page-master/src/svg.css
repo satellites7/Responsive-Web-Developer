@@ -1,0 +1,32 @@
+.semail {
+    background: url(../img/email.svg) no-repeat;
+    background-size: 20px 16px; 
+}
+
+.sphone {
+    background: url(../img/phone.svg) no-repeat;
+    background-size: 20px 16px; 
+}
+
+.sname {
+    background: url(../img/name.svg) no-repeat;
+    background-size: 20px 16px;
+}
+
+.scity {
+    background: url(../img/city.svg) no-repeat;
+    background-size: 20px 16px;
+}
+.scountry {
+    background: url(../img/conutry.svg) no-repeat;
+    background-size: 20px 16px;
+}
+.spostal {
+    background: url(../img/postal.svg) no-repeat;
+    background-size: 20px 16px;
+}
+
+.address {
+    background: url(../img/home_fill.svg) no-repeat;
+    background-size: 20px 16px;
+}

@@ -1,0 +1,295 @@
+@import url(./svg.css);
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 960px;
+    margin: 50px auto 0;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #4E5150;
+}
+
+main {
+    width: 960px;
+    margin: 50px auto 0;
+}
+
+.box, .box1 {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+}
+
+.box1 {
+    height: 440px;
+}
+
+
+.box p,.box1 p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.checked {
+    width: 480px;
+}
+
+.form-item {
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container input, .container select {
+    width: 217px;
+}
+
+#checkbox {
+    transform: translateY(5px);
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+#save {
+    height: 24px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+
+span {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+}
+
+input, select {
+    border: 1px solid #828282;
+    border-radius: 12px;
+    width: 465px;
+    height: 56px;
+    padding-left: 45px;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 60%;
+    border: none;
+    width: 166px;
+    height: 54px;
+    background: #F2994A;
+    border-radius: 12px;
+}
+
+button p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card {
+    float: right;
+    width: 383px;
+    height: 535px;
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+
+.commodity {
+    margin: 30px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 316.97px;
+    height: 303.49px;
+    /* background-color: #F2994A; */
+}
+
+.goods {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.goods img {
+    width: 140px;
+    height: 140px;
+    border-radius: 12px;
+}
+
+.goods-price {
+    margin-top: 5px;
+    color: #F2994A
+}
+
+.goods-amount {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 134.25px;
+    height: 52px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+}
+
+.goods-amount input {
+    text-align: center;
+    padding-left: 0;
+    background-color: #F2F2F2;
+    border: none;
+    width: 30px;
+    height: 20px
+}
+
+.goods-amount img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;   
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.total div {
+    border-top: 1px solid #BDBDBD;;
+    margin: 80px auto 0;
+    width: 327px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+s {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+}
+
+
+footer {
+    margin: 70px auto 0;
+    height: 17px;
+
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BDBDBD;
+
+}
+
+@media screen and (max-width: 960px ){
+    input,select {width: 350px;
+        padding-left: 36px;
+    }
+    .card {
+        margin: -20px auto 39px;
+        float: none;
+        width: 350px;
+        height: 489px;
+    }
+    main,.checked,.container {
+        width: 370px;
+    }
+    header {
+        margin: 20px auto 0 ;
+        width: 340px;
+    }
+    .container input, .container select {
+        width: 163px;
+    }
+    .container {
+        margin-left: 4px;
+    }
+    .container input {
+        margin-right: 20px;
+    }
+
+    button {
+        margin-left: 50%;
+    }
+
+    span {
+        left: 11.75px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .goods img  {
+        width: 130px;
+        height: 130px;
+    }
+
+    .goods-amount img {
+        width: 19px;
+        height: 19px;
+    }
+    .commodity {
+        transform: translateY(20px);
+    }
+    .form-item {
+        margin: 0 auto;
+    }
+    #save {
+        margin-left: 7px;
+    }
+
+    .box p,.box1 p {
+        margin-left: 7px;
+    }
+    #code {
+        transform: translateX(10px);
+    }
+}
