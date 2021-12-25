@@ -1,0 +1,407 @@
+ @import url(./font.css);
+ 
+ * {
+     
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+     font-family: Poppins;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     width: 87.7%;
+     margin: 42px auto 96px;
+ }
+
+.menu {
+    margin-top: 5px;
+    display: none;
+    width: 18px;
+    height: 18px;
+}
+
+.connect {
+    position: relative; width: 366px;
+}
+
+ nav {
+     width: 703px;
+     margin: auto 0;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ main {
+     margin: 0 auto;
+     width: 87.6%;
+ }
+
+ .home {
+     width: 1332px;
+ }
+ .service, .works, .clients,.contact {
+     width: 1125px;
+     margin: 180px auto 0;
+ }
+
+ .title {
+     margin-left: 220px;
+     width: 534px;
+ }
+
+ .home img {
+     margin: 42px 0 42px 0;
+     max-width: 100vw;
+     border-radius: 18px;
+ }
+
+ .home .box {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 410px;
+     width: 366px;
+     margin-left: 220px;
+ }
+
+ input {
+     outline: none;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 27px;
+
+     padding-left: 10px;
+     width: 350px;
+     height: 50px;
+     background: #F2F2F2;
+     border-radius: 12px;
+     border: none;
+ }
+
+ section {
+     position: relative;
+ }
+
+ section button {
+     position: absolute;
+     top: 35px;
+     right: 20px;
+     border: none;
+     width: 94px;
+     height: 43px;
+     background: #2D9CDB;
+     border-radius: 12px;
+     color: #F2F2F2;
+     font-weight: 500;
+     font-size: 18px;
+     /* line-height: 27px; */
+ }
+
+ .service .lead2 {
+
+     display: inline-block;
+     width: 476px;
+ }
+
+ .service>div {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .card {
+     padding-left: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     height: 400px;
+     width: 341px;
+
+     margin-top: 42px;
+     box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+     border-radius: 24px;
+ }
+
+ .card img {
+     width: 67px;
+     height: 67px;
+ }
+
+ .card button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #FFFFFF;
+     border: none;
+    width: 116px;
+    height: 42px;
+    background: #2D9CDB;
+    border-radius: 12px;
+ }
+
+ .works .lead2 {
+    width: 490px;
+ }
+
+ .set {
+     position: relative;
+     height: 1596px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: repeat(10,10%);
+ }
+
+ .work {
+     width: 545px;
+     height: 636px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .set :nth-child(1) {
+     grid-row: 2/5;
+ }
+
+ .set :nth-child(2) {
+    grid-row: 1/4;
+    }
+
+ .set :nth-child(3) {
+     grid-row: 7/10
+ }
+
+ .set :nth-child(4) {
+    grid-row: 6/9
+}
+
+.work img{
+    border-radius: 12px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .box {
+    margin: auto 0;
+    width: 280px;
+}
+.staff {
+    gap: 0 20px;
+    display: grid;
+    grid-template-rows: repeat(4,25%);
+    grid-template-columns: 1fr 1fr;
+    width: 644px;
+    height: 560px;
+}
+
+.staff :nth-child(1) {
+   grid-row: 2/4;
+   border-radius: 24px;
+}
+.staff :nth-child(2) {
+    grid-column: 2/2;
+    border-radius: 24px;
+}
+.staff :nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 3 /4;
+    border-radius: 24px;
+}
+
+.contact .lead2 {
+    width: 937px;
+    height: 162px;
+}
+.cardte {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.cardte img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 180px;
+    background-color: #100E1D;
+    height: 335px;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #F2F2F2;
+}
+
+footer :nth-child(1) {  
+    color: #F2F2F2;
+}
+
+.navi {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.bottom {
+    margin-top: 60px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 10.66px;
+    }
+
+    header {
+        margin: 21px auto 48px;
+    }
+    nav {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+
+    .lead {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .font-grey {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .home {
+        width: 348px
+    }
+    .home img {
+        width: 348px;
+        height: 125px;
+    }
+    .home .box .lead {
+        width: 227px;
+    }
+
+    .title {
+        width: 272px;
+        margin-left: 0;
+    }
+
+    .home .box {
+        height: 264px;
+        /* width: 350px; */
+        margin-left: 0;
+    }
+    section button {
+        top: 29px;
+    }
+
+    .service, .works, .clients,.contact {
+        width: 348px;
+        margin: 100px auto 0;
+    }
+
+    .service>div {
+        flex-direction: column;
+        height: 1406;
+    }
+
+    .service .lead2,.works .lead2 {
+        width: 259px;
+    }
+
+    .set {
+        margin-top: 48px;
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .set img {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 5px;
+    }
+    .work {
+        width: 350px;
+        height: 410px;
+    }
+    .set a {
+        position: relative;
+    }
+
+    .clients {
+        flex-direction: column;
+    }
+
+    .clients .box {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+    .staff {
+        width: 350px;
+        height: 320px;
+    }
+
+    .staff :nth-child(1) {
+       width: 170px;
+       height: 170px;
+     }
+     .staff :nth-child(2) {
+        width: 134.76px;
+        height: 134.76px;
+     }
+     .staff :nth-child(3) {
+        width: 152.25px;
+         height: 157.03px;
+     }
+     .contact .lead2 {
+        width: 350px;
+    }
+
+    footer{ 
+        
+        margin-top: 100px;
+        height: 600px;
+    }
+
+    .container {
+        padding-left: 20px;
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .connect,input {
+        width: 291px;
+    }
+
+    
+}
+
+@media screen and (max-width: 380px) {
+    footer {
+        width: 390px;
+    }
+}

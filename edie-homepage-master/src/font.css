@@ -1,0 +1,83 @@
+.rem {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #333333;
+}
+
+a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.rem1 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    color: #2D9CDB;
+}
+
+.lead {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+}
+
+.lead2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+
+    color: #333333;
+
+}
+
+.font-grey {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.item {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.content {
+    display: inline-block;
+    width: 273px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+
+
+.work .rem1 {
+    color: #333333;
+}
+
+.clients .rem1 {
+    color: #EB5757;
+}
+
+.set a {
+    color: #2D9CDB;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
